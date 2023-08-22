@@ -1,0 +1,20 @@
+TencentCloudSes:
+  Endpoint: "ses.tencentcloudapi.com"
+  DefaultRegion: "ap-hongkong"
+  FromEmailAddress: "zihantsang@hotmail.com"
+  ReplyToAddresses: ""
+SesMailTemplate:
+  - ID: 36272
+    Name: "golang云原生"
+    ParamsCount: 0
+  - ID: 32858
+    Name: "邮件通知"
+    ParamsCount: 2
+  - ID: 32856
+    Name: "邮件验证码"
+    ParamsCount: 2
+SmtpConf:
+  Host: "smtp.qcloudmail.com"
+  Port: "465"
+  Email: "zihantsang@hotmail.com"
+  EmailName: "zihan"
